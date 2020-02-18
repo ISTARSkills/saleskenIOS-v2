@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D07512D92AED0FF0048004 /* Pods_SaleskenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */; };
+		1793A5CE23FBCD6400374727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5CD23FBCD6400374727 /* AppDelegate.swift */; };
+		1793A5D023FBCD6400374727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5CF23FBCD6400374727 /* SceneDelegate.swift */; };
+		1793A5D223FBCD6400374727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5D123FBCD6400374727 /* ViewController.swift */; };
+		1793A5D723FBCD8000374727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1793A5D623FBCD8000374727 /* Assets.xcassets */; };
+		1793A5E523FBCD8200374727 /* SaleskenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5E423FBCD8200374727 /* SaleskenTests.swift */; };
+		1793A5F023FBCD8200374727 /* SaleskenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5EF23FBCD8200374727 /* SaleskenUITests.swift */; };
+		179FD2BD23FBD4D500FA4EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179FD2BC23FBD4D500FA4EF9 /* Main.storyboard */; };
+		179FD2BF23FBD4EC00FA4EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179FD2BE23FBD4EC00FA4EF9 /* LaunchScreen.storyboard */; };
+		2317026CDDA5015B98C00727 /* Pods_Salesken_SaleskenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0BDCE6E9A4FD67ED257C1E /* Pods_Salesken_SaleskenUITests.framework */; };
+		30641942459155156869D0C4 /* Pods_Salesken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68864EFF39333D9B9601CD5 /* Pods_Salesken.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1793A5E123FBCD8200374727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1793A5C223FBCD6300374727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1793A5C923FBCD6300374727;
+			remoteInfo = Salesken;
+		};
+		1793A5EC23FBCD8200374727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1793A5C223FBCD6300374727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1793A5C923FBCD6300374727;
+			remoteInfo = Salesken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1793A5CA23FBCD6400374727 /* Salesken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salesken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1793A5CD23FBCD6400374727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
+		1793A5CF23FBCD6400374727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../SceneDelegate.swift; sourceTree = "<group>"; };
+		1793A5D123FBCD6400374727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
+		1793A5D623FBCD8000374727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1793A5DB23FBCD8000374727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1793A5E023FBCD8200374727 /* SaleskenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaleskenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1793A5E423FBCD8200374727 /* SaleskenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleskenTests.swift; sourceTree = "<group>"; };
+		1793A5E623FBCD8200374727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1793A5EB23FBCD8200374727 /* SaleskenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaleskenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1793A5EF23FBCD8200374727 /* SaleskenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleskenUITests.swift; sourceTree = "<group>"; };
+		1793A5F123FBCD8200374727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179FD2BC23FBD4D500FA4EF9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		179FD2BE23FBD4EC00FA4EF9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE218EEC6E361EC0399C57F /* Pods-SaleskenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.debug.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD9CD428649539144AAE25F /* Pods-SaleskenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.release.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleskenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EF64D4DE9D2E01FE0F55B9 /* Pods-Salesken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.release.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.release.xcconfig"; sourceTree = "<group>"; };
+		BCB0AE8EEB24BEEE480CF523 /* Pods-Salesken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.debug.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.debug.xcconfig"; sourceTree = "<group>"; };
+		C230D2ED86DB2B28A06D385B /* Pods-Salesken-SaleskenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken-SaleskenUITests.release.xcconfig"; path = "Target Support Files/Pods-Salesken-SaleskenUITests/Pods-Salesken-SaleskenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D68864EFF39333D9B9601CD5 /* Pods_Salesken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salesken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB0B4D624265CD4549042EF /* Pods-Salesken-SaleskenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken-SaleskenUITests.debug.xcconfig"; path = "Target Support Files/Pods-Salesken-SaleskenUITests/Pods-Salesken-SaleskenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0BDCE6E9A4FD67ED257C1E /* Pods_Salesken_SaleskenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salesken_SaleskenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1793A5C723FBCD6300374727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30641942459155156869D0C4 /* Pods_Salesken.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1793A5DD23FBCD8200374727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D07512D92AED0FF0048004 /* Pods_SaleskenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1793A5E823FBCD8200374727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2317026CDDA5015B98C00727 /* Pods_Salesken_SaleskenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1793A5C123FBCD6300374727 = {
+			isa = PBXGroup;
+			children = (
+				1793A5CC23FBCD6400374727 /* Salesken */,
+				1793A5E323FBCD8200374727 /* SaleskenTests */,
+				1793A5EE23FBCD8200374727 /* SaleskenUITests */,
+				1793A5CB23FBCD6400374727 /* Products */,
+				835E99DFE9CF5D6B95926B26 /* Pods */,
+				74E81F8891405ADF011C3E60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1793A5CB23FBCD6400374727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1793A5CA23FBCD6400374727 /* Salesken.app */,
+				1793A5E023FBCD8200374727 /* SaleskenTests.xctest */,
+				1793A5EB23FBCD8200374727 /* SaleskenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1793A5CC23FBCD6400374727 /* Salesken */ = {
+			isa = PBXGroup;
+			children = (
+				179FD2B723FBD18F00FA4EF9 /* Controllers */,
+				179FD2B623FBD18700FA4EF9 /* Views */,
+				179FD2B523FBD17600FA4EF9 /* Models */,
+				1793A5D623FBCD8000374727 /* Assets.xcassets */,
+				1793A5DB23FBCD8000374727 /* Info.plist */,
+			);
+			path = Salesken;
+			sourceTree = "<group>";
+		};
+		1793A5E323FBCD8200374727 /* SaleskenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1793A5E423FBCD8200374727 /* SaleskenTests.swift */,
+				1793A5E623FBCD8200374727 /* Info.plist */,
+			);
+			path = SaleskenTests;
+			sourceTree = "<group>";
+		};
+		1793A5EE23FBCD8200374727 /* SaleskenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1793A5EF23FBCD8200374727 /* SaleskenUITests.swift */,
+				1793A5F123FBCD8200374727 /* Info.plist */,
+			);
+			path = SaleskenUITests;
+			sourceTree = "<group>";
+		};
+		179FD2B523FBD17600FA4EF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		179FD2B623FBD18700FA4EF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				179FD2BC23FBD4D500FA4EF9 /* Main.storyboard */,
+				179FD2BE23FBD4EC00FA4EF9 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		179FD2B723FBD18F00FA4EF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				179FD2B923FBD1DF00FA4EF9 /* ViewControllers */,
+				179FD2B823FBD19D00FA4EF9 /* Delegates */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		179FD2B823FBD19D00FA4EF9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1793A5CD23FBCD6400374727 /* AppDelegate.swift */,
+				1793A5CF23FBCD6400374727 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		179FD2B923FBD1DF00FA4EF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1793A5D123FBCD6400374727 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74E81F8891405ADF011C3E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D68864EFF39333D9B9601CD5 /* Pods_Salesken.framework */,
+				FB0BDCE6E9A4FD67ED257C1E /* Pods_Salesken_SaleskenUITests.framework */,
+				B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		835E99DFE9CF5D6B95926B26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCB0AE8EEB24BEEE480CF523 /* Pods-Salesken.debug.xcconfig */,
+				B7EF64D4DE9D2E01FE0F55B9 /* Pods-Salesken.release.xcconfig */,
+				EAB0B4D624265CD4549042EF /* Pods-Salesken-SaleskenUITests.debug.xcconfig */,
+				C230D2ED86DB2B28A06D385B /* Pods-Salesken-SaleskenUITests.release.xcconfig */,
+				2BE218EEC6E361EC0399C57F /* Pods-SaleskenTests.debug.xcconfig */,
+				5CD9CD428649539144AAE25F /* Pods-SaleskenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1793A5C923FBCD6300374727 /* Salesken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1793A5F423FBCD8200374727 /* Build configuration list for PBXNativeTarget "Salesken" */;
+			buildPhases = (
+				8D5707EE3FB61793BD5B9652 /* [CP] Check Pods Manifest.lock */,
+				1793A5C623FBCD6300374727 /* Sources */,
+				1793A5C723FBCD6300374727 /* Frameworks */,
+				1793A5C823FBCD6300374727 /* Resources */,
+				3C741B24711ADD75E42A56E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salesken;
+			productName = Salesken;
+			productReference = 1793A5CA23FBCD6400374727 /* Salesken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1793A5DF23FBCD8200374727 /* SaleskenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1793A5F723FBCD8200374727 /* Build configuration list for PBXNativeTarget "SaleskenTests" */;
+			buildPhases = (
+				75FB4EB29B4759E64FBC2E96 /* [CP] Check Pods Manifest.lock */,
+				1793A5DC23FBCD8200374727 /* Sources */,
+				1793A5DD23FBCD8200374727 /* Frameworks */,
+				1793A5DE23FBCD8200374727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1793A5E223FBCD8200374727 /* PBXTargetDependency */,
+			);
+			name = SaleskenTests;
+			productName = SaleskenTests;
+			productReference = 1793A5E023FBCD8200374727 /* SaleskenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1793A5EA23FBCD8200374727 /* SaleskenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1793A5FA23FBCD8200374727 /* Build configuration list for PBXNativeTarget "SaleskenUITests" */;
+			buildPhases = (
+				14EAF75B02E9E5CF2EF02AF5 /* [CP] Check Pods Manifest.lock */,
+				1793A5E723FBCD8200374727 /* Sources */,
+				1793A5E823FBCD8200374727 /* Frameworks */,
+				1793A5E923FBCD8200374727 /* Resources */,
+				74916BE78A5B9F1287D0A4D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1793A5ED23FBCD8200374727 /* PBXTargetDependency */,
+			);
+			name = SaleskenUITests;
+			productName = SaleskenUITests;
+			productReference = 1793A5EB23FBCD8200374727 /* SaleskenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1793A5C223FBCD6300374727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Salesken.ai;
+				TargetAttributes = {
+					1793A5C923FBCD6300374727 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1793A5DF23FBCD8200374727 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1793A5C923FBCD6300374727;
+					};
+					1793A5EA23FBCD8200374727 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1793A5C923FBCD6300374727;
+					};
+				};
+			};
+			buildConfigurationList = 1793A5C523FBCD6300374727 /* Build configuration list for PBXProject "Salesken" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1793A5C123FBCD6300374727;
+			productRefGroup = 1793A5CB23FBCD6400374727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1793A5C923FBCD6300374727 /* Salesken */,
+				1793A5DF23FBCD8200374727 /* SaleskenTests */,
+				1793A5EA23FBCD8200374727 /* SaleskenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1793A5C823FBCD6300374727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179FD2BF23FBD4EC00FA4EF9 /* LaunchScreen.storyboard in Resources */,
+				1793A5D723FBCD8000374727 /* Assets.xcassets in Resources */,
+				179FD2BD23FBD4D500FA4EF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1793A5DE23FBCD8200374727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1793A5E923FBCD8200374727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EAF75B02E9E5CF2EF02AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salesken-SaleskenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C741B24711ADD75E42A56E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salesken/Pods-Salesken-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salesken/Pods-Salesken-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salesken/Pods-Salesken-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74916BE78A5B9F1287D0A4D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salesken-SaleskenUITests/Pods-Salesken-SaleskenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salesken-SaleskenUITests/Pods-Salesken-SaleskenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salesken-SaleskenUITests/Pods-Salesken-SaleskenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75FB4EB29B4759E64FBC2E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaleskenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5707EE3FB61793BD5B9652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salesken-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1793A5C623FBCD6300374727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1793A5D223FBCD6400374727 /* ViewController.swift in Sources */,
+				1793A5CE23FBCD6400374727 /* AppDelegate.swift in Sources */,
+				1793A5D023FBCD6400374727 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1793A5DC23FBCD8200374727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1793A5E523FBCD8200374727 /* SaleskenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1793A5E723FBCD8200374727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1793A5F023FBCD8200374727 /* SaleskenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1793A5E223FBCD8200374727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1793A5C923FBCD6300374727 /* Salesken */;
+			targetProxy = 1793A5E123FBCD8200374727 /* PBXContainerItemProxy */;
+		};
+		1793A5ED23FBCD8200374727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1793A5C923FBCD6300374727 /* Salesken */;
+			targetProxy = 1793A5EC23FBCD8200374727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1793A5F223FBCD8200374727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1793A5F323FBCD8200374727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1793A5F523FBCD8200374727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB0AE8EEB24BEEE480CF523 /* Pods-Salesken.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Salesken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.Salesken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1793A5F623FBCD8200374727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EF64D4DE9D2E01FE0F55B9 /* Pods-Salesken.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Salesken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.Salesken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1793A5F823FBCD8200374727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE218EEC6E361EC0399C57F /* Pods-SaleskenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T39BAWQ45A;
+				INFOPLIST_FILE = SaleskenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.salesken.SaleskenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salesken.app/Salesken";
+			};
+			name = Debug;
+		};
+		1793A5F923FBCD8200374727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD9CD428649539144AAE25F /* Pods-SaleskenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T39BAWQ45A;
+				INFOPLIST_FILE = SaleskenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.salesken.SaleskenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salesken.app/Salesken";
+			};
+			name = Release;
+		};
+		1793A5FB23FBCD8200374727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB0B4D624265CD4549042EF /* Pods-Salesken-SaleskenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T39BAWQ45A;
+				INFOPLIST_FILE = SaleskenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.salesken.SaleskenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salesken;
+			};
+			name = Debug;
+		};
+		1793A5FC23FBCD8200374727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C230D2ED86DB2B28A06D385B /* Pods-Salesken-SaleskenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T39BAWQ45A;
+				INFOPLIST_FILE = SaleskenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.salesken.SaleskenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salesken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1793A5C523FBCD6300374727 /* Build configuration list for PBXProject "Salesken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1793A5F223FBCD8200374727 /* Debug */,
+				1793A5F323FBCD8200374727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1793A5F423FBCD8200374727 /* Build configuration list for PBXNativeTarget "Salesken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1793A5F523FBCD8200374727 /* Debug */,
+				1793A5F623FBCD8200374727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1793A5F723FBCD8200374727 /* Build configuration list for PBXNativeTarget "SaleskenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1793A5F823FBCD8200374727 /* Debug */,
+				1793A5F923FBCD8200374727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1793A5FA23FBCD8200374727 /* Build configuration list for PBXNativeTarget "SaleskenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1793A5FB23FBCD8200374727 /* Debug */,
+				1793A5FC23FBCD8200374727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1793A5C223FBCD6300374727 /* Project object */;
+}
