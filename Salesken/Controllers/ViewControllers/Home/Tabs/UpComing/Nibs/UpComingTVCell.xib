@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UpComingTVCell" rowHeight="65" id="KGk-i7-Jjw" customClass="UpComingTVCell" customModule="Salesken" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vlr-XV-BqP">
+                        <rect key="frame" x="10" y="14" width="40" height="36.5"/>
+                        <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="8O3-0D-9cf"/>
+                            <constraint firstAttribute="height" constant="40" id="8z0-RE-o50"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accenture Consulting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0A-86-eC3">
+                        <rect key="frame" x="58" y="10" width="139" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stage 01 - Follow Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exl-6Q-UFr">
+                        <rect key="frame" x="58" y="30" width="135" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lv-FS-gS5">
+                        <rect key="frame" x="250" y="10" width="64" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50C-lf-5hc">
+                        <rect key="frame" x="292" y="28.5" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="2KL-7D-ALt"/>
+                            <constraint firstAttribute="height" constant="22" id="O7Y-Sf-TLV"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="chevron.right" catalog="system"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="50C-lf-5hc" secondAttribute="trailing" constant="20" id="3XN-Ge-wPG"/>
+                    <constraint firstItem="Q0A-86-eC3" firstAttribute="leading" secondItem="vlr-XV-BqP" secondAttribute="trailing" constant="8" id="7q5-xZ-tur"/>
+                    <constraint firstItem="vlr-XV-BqP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="SzY-S6-b5U"/>
+                    <constraint firstItem="Q0A-86-eC3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-14" id="Xfo-JN-1gZ"/>
+                    <constraint firstItem="exl-6Q-UFr" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="6" id="eOb-ot-5u0"/>
+                    <constraint firstItem="vlr-XV-BqP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="eiA-li-B0F"/>
+                    <constraint firstItem="50C-lf-5hc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="7" id="vo7-fu-7vN"/>
+                    <constraint firstAttribute="trailing" secondItem="5Lv-FS-gS5" secondAttribute="trailing" constant="20" id="xDU-AQ-VrC"/>
+                    <constraint firstItem="exl-6Q-UFr" firstAttribute="leading" secondItem="vlr-XV-BqP" secondAttribute="trailing" constant="8" id="ykc-e0-oIQ"/>
+                    <constraint firstItem="5Lv-FS-gS5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-14" id="zbo-aI-Da1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-74" y="5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="48" height="64"/>
+        <image name="envelope.fill" catalog="system" width="64" height="46"/>
+    </resources>
+</document>
