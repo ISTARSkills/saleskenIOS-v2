@@ -9,10 +9,15 @@
 import UIKit
 
 class FinishedVC: UIViewController {
-
+    @IBOutlet weak var headerView: UIView!
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var addBtn: UIButton!
+    @IBOutlet weak var headerLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
+        searchBar.searchTextField.backgroundColor = .clear
         // Do any additional setup after loading the view.
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {

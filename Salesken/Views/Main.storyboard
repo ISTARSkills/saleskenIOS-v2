@@ -49,6 +49,12 @@
                                             <constraint firstAttribute="height" constant="40" id="bTo-nE-UUj"/>
                                         </constraints>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" name="primaryColor"/>
@@ -63,16 +69,37 @@
                                     <constraint firstAttribute="height" constant="146" id="vuh-Z0-eY9"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="AYA-cT-zfu">
+                                <rect key="frame" x="0.0" y="146" width="414" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" name="primaryColor"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5Qf-2v-7LT" id="44t-pD-Mnp"/>
+                                    <outlet property="delegate" destination="5Qf-2v-7LT" id="g8a-3A-6up"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="HRR-NN-BKh" firstAttribute="trailing" secondItem="PwW-4V-llV" secondAttribute="trailing" id="Ksc-KV-sAD"/>
+                            <constraint firstItem="PwW-4V-llV" firstAttribute="trailing" secondItem="AYA-cT-zfu" secondAttribute="trailing" id="Vfp-4S-Lbn"/>
                             <constraint firstItem="HRR-NN-BKh" firstAttribute="top" secondItem="ZdS-Sa-ClE" secondAttribute="top" id="Yd8-Q9-Z6O"/>
+                            <constraint firstItem="AYA-cT-zfu" firstAttribute="top" secondItem="HRR-NN-BKh" secondAttribute="bottom" id="em2-p7-prH"/>
+                            <constraint firstItem="PwW-4V-llV" firstAttribute="bottom" secondItem="AYA-cT-zfu" secondAttribute="bottom" id="jCA-Pf-lgw"/>
+                            <constraint firstItem="AYA-cT-zfu" firstAttribute="leading" secondItem="PwW-4V-llV" secondAttribute="leading" id="lGa-5x-qNy"/>
                             <constraint firstItem="HRR-NN-BKh" firstAttribute="leading" secondItem="PwW-4V-llV" secondAttribute="leading" id="rL8-fO-x9Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PwW-4V-llV"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Leads" image="person.2.fill" catalog="system" id="uAf-g6-rtN"/>
+                    <connections>
+                        <outlet property="addBtn" destination="2JK-aa-CJR" id="QLq-jW-gc3"/>
+                        <outlet property="headerLabel" destination="RiK-3O-7XK" id="8rI-lj-Y7j"/>
+                        <outlet property="headerView" destination="HRR-NN-BKh" id="v9A-TR-BnZ"/>
+                        <outlet property="searchBar" destination="pR2-94-uOg" id="VCT-ME-a2w"/>
+                        <outlet property="tableView" destination="AYA-cT-zfu" id="NmN-p4-qNA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sgk-00-Iuz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +140,12 @@
                                             <constraint firstAttribute="height" constant="40" id="TS8-Ah-nbI"/>
                                         </constraints>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" name="primaryColor"/>
@@ -137,6 +170,12 @@
                         <viewLayoutGuide key="safeArea" id="Oxk-XK-8Hz"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="More" image="line.horizontal.3" catalog="system" id="sHy-Ee-YVH"/>
+                    <connections>
+                        <outlet property="addBtn" destination="XC5-5X-xXK" id="Os1-n3-LW7"/>
+                        <outlet property="headerLabel" destination="ym6-xI-0G2" id="UAa-tQ-LUQ"/>
+                        <outlet property="headerView" destination="AkT-45-Q3q" id="Cu0-8A-yW8"/>
+                        <outlet property="searchBar" destination="edB-fx-rfz" id="mQc-fg-ihl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsh-5e-DpG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,6 +216,12 @@
                                             <constraint firstAttribute="height" constant="40" id="bAZ-fz-MTd"/>
                                         </constraints>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" name="primaryColor"/>
@@ -201,6 +246,12 @@
                         <viewLayoutGuide key="safeArea" id="Hue-SM-9fh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Recents" image="clock.fill" catalog="system" id="aXU-ej-td5"/>
+                    <connections>
+                        <outlet property="addBtn" destination="0UK-cV-564" id="QxC-JX-5RI"/>
+                        <outlet property="headerLabel" destination="CrB-kC-qBU" id="dQk-yb-apd"/>
+                        <outlet property="headerView" destination="fTq-W3-s1A" id="Kny-cC-yrr"/>
+                        <outlet property="searchBar" destination="bpk-yL-PtL" id="l0z-Q5-fzU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UgF-H3-lcn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -266,6 +317,12 @@
                                             <constraint firstAttribute="height" constant="40" id="6dc-x0-fLm"/>
                                         </constraints>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" name="primaryColor"/>
@@ -290,6 +347,12 @@
                         <viewLayoutGuide key="safeArea" id="IqA-HT-E1I"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Finished" image="lightbulb.fill" catalog="system" id="RqM-p7-siT"/>
+                    <connections>
+                        <outlet property="addBtn" destination="7xU-EZ-a2A" id="8sy-CZ-ojA"/>
+                        <outlet property="headerLabel" destination="3Y8-wr-gbL" id="u6q-Lz-spi"/>
+                        <outlet property="headerView" destination="1fY-rQ-rHV" id="vQn-5P-9PS"/>
+                        <outlet property="searchBar" destination="UOI-mf-jov" id="VXC-6c-D12"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O0O-yE-1cM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

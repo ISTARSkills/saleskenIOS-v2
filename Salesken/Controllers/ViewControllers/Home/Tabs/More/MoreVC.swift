@@ -10,9 +10,14 @@ import UIKit
 
 class MoreVC: UIViewController {
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var addBtn: UIButton!
+    @IBOutlet weak var headerLabel: UILabel!
+    @IBOutlet weak var headerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
+        searchBar.searchTextField.backgroundColor = .clear
         // Do any additional setup after loading the view.
     }
     
