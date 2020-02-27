@@ -30,6 +30,7 @@
 		17A5EA5123FD4C82006FBB60 /* LeadsHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */; };
 		2317026CDDA5015B98C00727 /* Pods_Salesken_SaleskenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0BDCE6E9A4FD67ED257C1E /* Pods_Salesken_SaleskenUITests.framework */; };
 		30641942459155156869D0C4 /* Pods_Salesken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68864EFF39333D9B9601CD5 /* Pods_Salesken.framework */; };
+		60BB04962407F2FB0016FE6F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 60BB04952407F2FA0016FE6F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeadsHeaderTVCell.xib; sourceTree = "<group>"; };
 		2BE218EEC6E361EC0399C57F /* Pods-SaleskenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.debug.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5CD9CD428649539144AAE25F /* Pods-SaleskenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.release.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.release.xcconfig"; sourceTree = "<group>"; };
+		60BB04952407F2FA0016FE6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleskenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF64D4DE9D2E01FE0F55B9 /* Pods-Salesken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.release.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.release.xcconfig"; sourceTree = "<group>"; };
 		BCB0AE8EEB24BEEE480CF523 /* Pods-Salesken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.debug.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		1793A5C123FBCD6300374727 = {
 			isa = PBXGroup;
 			children = (
+				60BB04952407F2FA0016FE6F /* README.md */,
 				1793A5CC23FBCD6400374727 /* Salesken */,
 				1793A5E323FBCD8200374727 /* SaleskenTests */,
 				1793A5EE23FBCD8200374727 /* SaleskenUITests */,
@@ -439,6 +442,7 @@
 				179FD2BF23FBD4EC00FA4EF9 /* LaunchScreen.storyboard in Resources */,
 				1793A5D723FBCD8000374727 /* Assets.xcassets in Resources */,
 				179FD2BD23FBD4D500FA4EF9 /* Main.storyboard in Resources */,
+				60BB04962407F2FB0016FE6F /* README.md in Resources */,
 				179FD2C523FBE4CB00FA4EF9 /* UpComingTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
