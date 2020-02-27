@@ -54,7 +54,7 @@ class LeadsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var contactList = [String]()
     
     func prepareData(){
-        sectionList = ["A","B","C","D","E","F","G","I","J","K","L","M","N","O"]
+        sectionList = ["A","B","C","D","E","F","G","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -69,7 +69,7 @@ class LeadsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.dataSource = self
         tableView.register(UINib(nibName: "LeadsTVCell", bundle: nil), forCellReuseIdentifier: "LeadsTVCell")
         tableView.register(UINib(nibName: "LeadsHeaderTVCell", bundle: nil), forCellReuseIdentifier: "LeadsHeaderTVCell")
-        tableView.sectionIndexMinimumDisplayRowCount = 15
+        tableView.sectionIndexMinimumDisplayRowCount = 10
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent

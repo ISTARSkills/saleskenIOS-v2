@@ -21,15 +21,16 @@ class UpComingVC: UIViewController, UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 70
     }
-    func tableView(_ tableView: UITableView,trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
-    {
-        let modifyAction = UIContextualAction(style: .normal, title:  "Call", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+    
+    func tableView(_ tableView: UITableView, editActionsForRowAt: IndexPath) -> [UITableViewRowAction]? {
+        let more = UITableViewRowAction(style: .normal, title: "Call") { action, index in
             print("call action ...")
-            success(true)
-        })
-        modifyAction.backgroundColor = #colorLiteral(red: 0.3411764706, green: 0.6980392157, blue: 0.5019607843, alpha: 1)
-        return UISwipeActionsConfiguration(actions: [modifyAction])
+        }
+        more.backgroundColor = #colorLiteral(red: 0.3411764706, green: 0.6980392157, blue: 0.5019607843, alpha: 1)
+        return [more]
     }
+    
+
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var addBtn: UIButton!
