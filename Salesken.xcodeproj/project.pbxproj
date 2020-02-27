@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09D07512D92AED0FF0048004 /* Pods_SaleskenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */; };
+		177808F52407EF0B005B9053 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 177808F42407EF0B005B9053 /* Readme.md */; };
 		1793A5CE23FBCD6400374727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5CD23FBCD6400374727 /* AppDelegate.swift */; };
 		1793A5D023FBCD6400374727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5CF23FBCD6400374727 /* SceneDelegate.swift */; };
 		1793A5D223FBCD6400374727 /* UpComingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793A5D123FBCD6400374727 /* UpComingVC.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		177808F42407EF0B005B9053 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		1793A5CA23FBCD6400374727 /* Salesken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salesken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1793A5CD23FBCD6400374727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		1793A5CF23FBCD6400374727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		1793A5C123FBCD6300374727 = {
 			isa = PBXGroup;
 			children = (
+				177808F42407EF0B005B9053 /* Readme.md */,
 				1793A5CC23FBCD6400374727 /* Salesken */,
 				1793A5E323FBCD8200374727 /* SaleskenTests */,
 				1793A5EE23FBCD8200374727 /* SaleskenUITests */,
@@ -439,6 +442,7 @@
 				179FD2BF23FBD4EC00FA4EF9 /* LaunchScreen.storyboard in Resources */,
 				1793A5D723FBCD8000374727 /* Assets.xcassets in Resources */,
 				179FD2BD23FBD4D500FA4EF9 /* Main.storyboard in Resources */,
+				177808F52407EF0B005B9053 /* Readme.md in Resources */,
 				179FD2C523FBE4CB00FA4EF9 /* UpComingTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
