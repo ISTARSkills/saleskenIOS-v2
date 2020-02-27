@@ -1,3 +1,3 @@
-![GitHub Logo](/salesken_splash.png)
-Format: ![Alt Text](url)
+![GitHub Logo](/Salesken/Assets.xcassets/salesken_splash.png)
+
 <h1>Salesken </h1>
