@@ -30,6 +30,7 @@
 		17A5EA5123FD4C82006FBB60 /* LeadsHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */; };
 		2317026CDDA5015B98C00727 /* Pods_Salesken_SaleskenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0BDCE6E9A4FD67ED257C1E /* Pods_Salesken_SaleskenUITests.framework */; };
 		30641942459155156869D0C4 /* Pods_Salesken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68864EFF39333D9B9601CD5 /* Pods_Salesken.framework */; };
+		60A94BED24082CE400D9AD7D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A94BEC24082CE400D9AD7D /* Colors.swift */; };
 		60BB04962407F2FB0016FE6F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 60BB04952407F2FA0016FE6F /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeadsHeaderTVCell.xib; sourceTree = "<group>"; };
 		2BE218EEC6E361EC0399C57F /* Pods-SaleskenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.debug.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5CD9CD428649539144AAE25F /* Pods-SaleskenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.release.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.release.xcconfig"; sourceTree = "<group>"; };
+		60A94BEC24082CE400D9AD7D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		60BB04952407F2FA0016FE6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleskenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF64D4DE9D2E01FE0F55B9 /* Pods-Salesken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.release.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +145,7 @@
 		1793A5CC23FBCD6400374727 /* Salesken */ = {
 			isa = PBXGroup;
 			children = (
-				179FD2CA23FC1A6A00FA4EF9 /* roboto */,
+				60BB04972408039A0016FE6F /* Styles */,
 				179FD2B723FBD18F00FA4EF9 /* Controllers */,
 				179FD2B623FBD18700FA4EF9 /* Views */,
 				179FD2B523FBD17600FA4EF9 /* Models */,
@@ -302,6 +304,31 @@
 				17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */,
 			);
 			path = CustomHeader;
+			sourceTree = "<group>";
+		};
+		60BB04972408039A0016FE6F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				60BB0499240803DE0016FE6F /* Colors */,
+				60BB0498240803C00016FE6F /* Fonts */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		60BB0498240803C00016FE6F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				179FD2CA23FC1A6A00FA4EF9 /* roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		60BB0499240803DE0016FE6F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				60A94BEC24082CE400D9AD7D /* Colors.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 		74E81F8891405ADF011C3E60 /* Frameworks */ = {
@@ -572,6 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				179FD2D723FC2A9C00FA4EF9 /* LeadsVC.swift in Sources */,
+				60A94BED24082CE400D9AD7D /* Colors.swift in Sources */,
 				179FD2D323FC2A5300FA4EF9 /* RecentsVC.swift in Sources */,
 				1793A5D223FBCD6400374727 /* UpComingVC.swift in Sources */,
 				1793A5CE23FBCD6400374727 /* AppDelegate.swift in Sources */,

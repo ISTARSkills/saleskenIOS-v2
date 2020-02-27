@@ -7,6 +7,7 @@ target 'Salesken' do
 
   # Pods for Salesken
    pod 'Alamofire', '~> 5.0'
+   pod 'Starscream', '~> 4.0.0'
 
   target 'SaleskenTests' do
     inherit! :search_paths
