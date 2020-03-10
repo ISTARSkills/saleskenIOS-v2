@@ -30,8 +30,15 @@
 		17A5EA5123FD4C82006FBB60 /* LeadsHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */; };
 		2317026CDDA5015B98C00727 /* Pods_Salesken_SaleskenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0BDCE6E9A4FD67ED257C1E /* Pods_Salesken_SaleskenUITests.framework */; };
 		30641942459155156869D0C4 /* Pods_Salesken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68864EFF39333D9B9601CD5 /* Pods_Salesken.framework */; };
+		6067062924160C1E00C8BA70 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067062824160C1E00C8BA70 /* Socket.swift */; };
+		6067062C24160CB700C8BA70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067062B24160CB700C8BA70 /* Constants.swift */; };
+		60670631241616BA00C8BA70 /* CallDialerTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60670630241616BA00C8BA70 /* CallDialerTabVC.swift */; };
+		606706372416179800C8BA70 /* DialerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606706362416179800C8BA70 /* DialerVC.swift */; };
+		60670639241617E100C8BA70 /* CallLeadsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60670638241617E100C8BA70 /* CallLeadsVC.swift */; };
+		6067063B2416181900C8BA70 /* CallRecentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067063A2416181900C8BA70 /* CallRecentsVC.swift */; };
 		60A94BED24082CE400D9AD7D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A94BEC24082CE400D9AD7D /* Colors.swift */; };
 		60BB04962407F2FB0016FE6F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 60BB04952407F2FA0016FE6F /* README.md */; };
+		60DFDAED241768FC0052FCD2 /* ToolbarDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFDAEC241768FC0052FCD2 /* ToolbarDatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +87,15 @@
 		17A5EA4F23FD4C82006FBB60 /* LeadsHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeadsHeaderTVCell.xib; sourceTree = "<group>"; };
 		2BE218EEC6E361EC0399C57F /* Pods-SaleskenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.debug.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5CD9CD428649539144AAE25F /* Pods-SaleskenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaleskenTests.release.xcconfig"; path = "Target Support Files/Pods-SaleskenTests/Pods-SaleskenTests.release.xcconfig"; sourceTree = "<group>"; };
+		6067062824160C1E00C8BA70 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		6067062B24160CB700C8BA70 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60670630241616BA00C8BA70 /* CallDialerTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDialerTabVC.swift; sourceTree = "<group>"; };
+		606706362416179800C8BA70 /* DialerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialerVC.swift; sourceTree = "<group>"; };
+		60670638241617E100C8BA70 /* CallLeadsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLeadsVC.swift; sourceTree = "<group>"; };
+		6067063A2416181900C8BA70 /* CallRecentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRecentsVC.swift; sourceTree = "<group>"; };
 		60A94BEC24082CE400D9AD7D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		60BB04952407F2FA0016FE6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		60DFDAEC241768FC0052FCD2 /* ToolbarDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarDatePickerView.swift; sourceTree = "<group>"; };
 		B5686FCAE230A813F6AA6A61 /* Pods_SaleskenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaleskenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF64D4DE9D2E01FE0F55B9 /* Pods-Salesken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.release.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.release.xcconfig"; sourceTree = "<group>"; };
 		BCB0AE8EEB24BEEE480CF523 /* Pods-Salesken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesken.debug.xcconfig"; path = "Target Support Files/Pods-Salesken/Pods-Salesken.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +159,7 @@
 		1793A5CC23FBCD6400374727 /* Salesken */ = {
 			isa = PBXGroup;
 			children = (
+				6067062624160BBB00C8BA70 /* Helper */,
 				60BB04972408039A0016FE6F /* Styles */,
 				179FD2B723FBD18F00FA4EF9 /* Controllers */,
 				179FD2B623FBD18700FA4EF9 /* Views */,
@@ -176,6 +191,7 @@
 		179FD2B523FBD17600FA4EF9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				60DFDAEB241768D20052FCD2 /* DatePickerModel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +226,7 @@
 		179FD2B923FBD1DF00FA4EF9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6067062D2416143800C8BA70 /* CallDialer */,
 				179FD2C623FC098900FA4EF9 /* Home */,
 			);
 			path = ViewControllers;
@@ -306,6 +323,74 @@
 			path = CustomHeader;
 			sourceTree = "<group>";
 		};
+		6067062624160BBB00C8BA70 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6067062A24160C9900C8BA70 /* Constants */,
+				6067062724160C0500C8BA70 /* Sockets */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6067062724160C0500C8BA70 /* Sockets */ = {
+			isa = PBXGroup;
+			children = (
+				6067062824160C1E00C8BA70 /* Socket.swift */,
+			);
+			path = Sockets;
+			sourceTree = "<group>";
+		};
+		6067062A24160C9900C8BA70 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6067062B24160CB700C8BA70 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6067062D2416143800C8BA70 /* CallDialer */ = {
+			isa = PBXGroup;
+			children = (
+				60670632241616DE00C8BA70 /* Tabs */,
+				60670630241616BA00C8BA70 /* CallDialerTabVC.swift */,
+			);
+			path = CallDialer;
+			sourceTree = "<group>";
+		};
+		60670632241616DE00C8BA70 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				606706352416177500C8BA70 /* Recents */,
+				606706342416176B00C8BA70 /* Leads */,
+				606706332416176300C8BA70 /* Dialer */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		606706332416176300C8BA70 /* Dialer */ = {
+			isa = PBXGroup;
+			children = (
+				606706362416179800C8BA70 /* DialerVC.swift */,
+			);
+			path = Dialer;
+			sourceTree = "<group>";
+		};
+		606706342416176B00C8BA70 /* Leads */ = {
+			isa = PBXGroup;
+			children = (
+				60670638241617E100C8BA70 /* CallLeadsVC.swift */,
+			);
+			path = Leads;
+			sourceTree = "<group>";
+		};
+		606706352416177500C8BA70 /* Recents */ = {
+			isa = PBXGroup;
+			children = (
+				6067063A2416181900C8BA70 /* CallRecentsVC.swift */,
+			);
+			path = Recents;
+			sourceTree = "<group>";
+		};
 		60BB04972408039A0016FE6F /* Styles */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +414,14 @@
 				60A94BEC24082CE400D9AD7D /* Colors.swift */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		60DFDAEB241768D20052FCD2 /* DatePickerModel */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDAEC241768FC0052FCD2 /* ToolbarDatePickerView.swift */,
+			);
+			path = DatePickerModel;
 			sourceTree = "<group>";
 		};
 		74E81F8891405ADF011C3E60 /* Frameworks */ = {
@@ -601,13 +694,20 @@
 				179FD2D723FC2A9C00FA4EF9 /* LeadsVC.swift in Sources */,
 				60A94BED24082CE400D9AD7D /* Colors.swift in Sources */,
 				179FD2D323FC2A5300FA4EF9 /* RecentsVC.swift in Sources */,
+				606706372416179800C8BA70 /* DialerVC.swift in Sources */,
 				1793A5D223FBCD6400374727 /* UpComingVC.swift in Sources */,
+				60DFDAED241768FC0052FCD2 /* ToolbarDatePickerView.swift in Sources */,
 				1793A5CE23FBCD6400374727 /* AppDelegate.swift in Sources */,
 				179FD2D523FC2A7800FA4EF9 /* MoreVC.swift in Sources */,
 				179FD2D123FC2A2200FA4EF9 /* FinishedVC.swift in Sources */,
+				6067062924160C1E00C8BA70 /* Socket.swift in Sources */,
+				60670639241617E100C8BA70 /* CallLeadsVC.swift in Sources */,
 				1793A5D023FBCD6400374727 /* SceneDelegate.swift in Sources */,
+				60670631241616BA00C8BA70 /* CallDialerTabVC.swift in Sources */,
 				179FD2C823FC09DB00FA4EF9 /* HomeTabVC.swift in Sources */,
+				6067063B2416181900C8BA70 /* CallRecentsVC.swift in Sources */,
 				17A5EA5023FD4C82006FBB60 /* LeadsHeaderTVCell.swift in Sources */,
+				6067062C24160CB700C8BA70 /* Constants.swift in Sources */,
 				179FD2C423FBE4CB00FA4EF9 /* UpComingTVCell.swift in Sources */,
 				17A5EA4B23FD4A79006FBB60 /* LeadsTVCell.swift in Sources */,
 			);
