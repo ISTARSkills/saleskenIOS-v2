@@ -27,6 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     func displayIncomingCall(uuid: UUID,handle: String,hasVideo: Bool,completion: ((Error?) -> Void)?) {
       providerDelegate.reportIncomingCall(uuid: uuid,handle: handle,hasVideo: hasVideo,completion: completion)
+    
+      
     }
 
     // MARK: UISceneSession Lifecycle

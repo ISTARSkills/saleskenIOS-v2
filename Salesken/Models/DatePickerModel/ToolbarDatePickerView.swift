@@ -14,6 +14,7 @@ protocol ToolbarDatePickerViewDelegate: class {
     func onDatePickerCancel()
 }
 
+//Custom DatePicker 
 class ToolbarDatePickerView: UIDatePicker {
 
     public private(set) var toolbar: UIToolbar?
@@ -36,7 +37,7 @@ class ToolbarDatePickerView: UIDatePicker {
     private func commonInit() {
         let toolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: frame.width, height: 50))
         toolBar.barStyle = .blackOpaque
-        toolBar.barTintColor = Color.primaryColor
+        toolBar.barTintColor = .primaryColor
         toolBar.isTranslucent = true
         toolBar.tintColor = .white
         toolBar.sizeToFit()

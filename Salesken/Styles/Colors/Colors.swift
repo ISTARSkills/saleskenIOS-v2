@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
-struct Color {
-    static let primaryColor: UIColor = #colorLiteral(red: 0.9294117647, green: 0.3019607843, blue: 0.4039215686, alpha: 1)
+
+extension UIColor {
+    static let primaryColor = #colorLiteral(red: 0.9294117647, green: 0.3019607843, blue: 0.4039215686, alpha: 1)
 }

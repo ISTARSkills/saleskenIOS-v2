@@ -8,7 +8,7 @@
 
 import AVFoundation
 import CallKit
-
+import UIKit
 @available(iOS 10.0, *)
 class ProviderDelegate: NSObject {
   private let callManager: CallManager
@@ -23,21 +23,18 @@ class ProviderDelegate: NSObject {
   }
   
   static var providerConfiguration: CXProviderConfiguration = {
-    let providerConfiguration = CXProviderConfiguration(localizedName: "Salesken")
+    let providerConfiguration = CXProviderConfiguration(localizedName: Bundle.appName())
     
     providerConfiguration.supportsVideo = true
     providerConfiguration.maximumCallsPerCallGroup = 1
     providerConfiguration.supportedHandleTypes = [.phoneNumber]
+     
+    providerConfiguration.iconTemplateImageData = UIImage(named: "AppIcon")!.pngData()
     
     return providerConfiguration
   }()
   
-  func reportIncomingCall(
-    uuid: UUID,
-    handle: String,
-    hasVideo: Bool = false,
-    completion: ((Error?) -> Void)?
-  ) {
+  func reportIncomingCall(uuid: UUID,handle: String,hasVideo: Bool,completion: ((Error?) -> Void)?) {
     let update = CXCallUpdate()
     update.remoteHandle = CXHandle(type: .phoneNumber, value: handle)
     update.hasVideo = hasVideo

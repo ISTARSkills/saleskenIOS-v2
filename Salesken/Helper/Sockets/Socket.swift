@@ -47,7 +47,7 @@ class Socket: NSObject, WebSocketDelegate{
     }
     var socket: WebSocket!
     var isConnected = false
-    
+
     static let instance = Socket()
     private override init(){
         super.init()
@@ -56,10 +56,12 @@ class Socket: NSObject, WebSocketDelegate{
         socket = WebSocket(request: request)
         socket.delegate = self
     }
-    
+
     func connect(){
         if !isConnected{
             socket.connect()
+            print(socket.request)
+            print("socket connecting")
         }
     }
     func disconnect(){
@@ -72,13 +74,13 @@ class Socket: NSObject, WebSocketDelegate{
             socket.write(data: data)
             print("send audio data ",data)
         }
-        
+
     }
     func writeString(data: String){
         if isConnected{
             socket.write(string: data)
             print("send data ",data)
         }
-        
+
     }
 }

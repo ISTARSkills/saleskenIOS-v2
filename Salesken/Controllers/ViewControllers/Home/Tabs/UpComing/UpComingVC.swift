@@ -43,8 +43,11 @@ class UpComingVC: UIViewController, UITableViewDelegate,UITableViewDataSource {
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var headerView: UIView!
 
+    
     fileprivate let datePicker = ToolbarDatePickerView()
     override func viewDidAppear(_ animated: Bool) {
+        let dash = UIApplication.shared.windows[0].rootViewController as! DashBoardVC
+        dash.delegate = self
         tableView.reloadData()
     }
     
@@ -56,8 +59,13 @@ class UpComingVC: UIViewController, UITableViewDelegate,UITableViewDataSource {
         self.dateTxt.inputAssistantItem.trailingBarButtonGroups.removeAll()
         self.datePicker.toolbarDelegate = self
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        let dash : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let dashboard = dash.instantiateViewController(withIdentifier: "DashBoardVC") as! DashBoardVC
+        dashboard.delegate = self
+        
         self.setNeedsStatusBarAppearanceUpdate()
         configureDatePicker()
         searchBar.searchTextField.backgroundColor = .clear
@@ -83,3 +91,16 @@ extension UpComingVC: ToolbarDatePickerViewDelegate{
         self.dateTxt.resignFirstResponder()
     }
 }
+
+extension UpComingVC: SearchDelegate {
+    func onSearchStateChange(status: Bool) {
+        print(status)
+    }
+    
+    func onSearchTextChange(data: String) {
+        print(data)
+    }
+    
+    
+}
+ 

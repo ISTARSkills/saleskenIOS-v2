@@ -3,12 +3,9 @@ platform :ios, '9.0'
 
 target 'Salesken' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
+  #use_frameworks!
   # Pods for Salesken
-   pod 'Alamofire', '~> 5.0'
    pod 'Starscream', '~> 4.0.0'
-
   target 'SaleskenTests' do
     inherit! :search_paths
     # Pods for testing
