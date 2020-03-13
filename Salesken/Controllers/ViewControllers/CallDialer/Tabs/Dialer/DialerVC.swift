@@ -30,8 +30,8 @@ class DialerVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool) {
-        Socket.instance.connect()
-        Socket.instance.writeString(data: "hi ")
+        //Socket.instance.connect()
+        //Socket.instance.writeString(data: "hi ")
     }
     @IBAction func onClose(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
@@ -79,7 +79,7 @@ class DialerVC: UIViewController {
     
     
     deinit {
-       Socket.instance.disconnect()
+       //Socket.instance.disconnect()
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent

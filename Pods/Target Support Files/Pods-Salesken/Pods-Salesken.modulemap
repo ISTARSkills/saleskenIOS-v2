@@ -1,4 +1,4 @@
-module Pods_Salesken {
+framework module Pods_Salesken {
   umbrella header "Pods-Salesken-umbrella.h"
 
   export *

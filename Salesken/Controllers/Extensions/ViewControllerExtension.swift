@@ -43,9 +43,14 @@ extension Bundle {
 extension UITextField {
     func addBottomBorder(){
         let bottomLine = CALayer()
-        bottomLine.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 0.7)
+        bottomLine.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width - 25, height: 0.7)
         bottomLine.backgroundColor = UIColor.lightGray.cgColor
         borderStyle = .none
         layer.addSublayer(bottomLine)
+    }
+}
+extension String {
+    var isValidEmail: Bool {
+        NSPredicate(format: "SELF MATCHES %@", "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}").evaluate(with: self)
     }
 }

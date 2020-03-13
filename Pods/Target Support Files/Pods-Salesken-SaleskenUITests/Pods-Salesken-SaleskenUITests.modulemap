@@ -1,4 +1,4 @@
-module Pods_Salesken_SaleskenUITests {
+framework module Pods_Salesken_SaleskenUITests {
   umbrella header "Pods-Salesken-SaleskenUITests-umbrella.h"
 
   export *

@@ -123,11 +123,11 @@ final class RecordAudio: NSObject {
     }
     
     func sendToServer(data: Data){
-        if Socket.instance.isConnected{
-            Socket.instance.writeBinary(data: data)
-        }else{
-            print("socket is disconnected")
-        }
+//        if Socket.instance.isConnected{
+//            Socket.instance.writeBinary(data: data)
+//        }else{
+//            print("socket is disconnected")
+//        }
         
     }
     
