@@ -29,7 +29,6 @@ class LoginVC: UIViewController {
         passwordTxt.addBottomBorder()
         signinBtn.layer.cornerRadius = 10
         signinBtn.clipsToBounds = true
-        loginGradientButton()
         nameTxt.tintColor = .primaryColor
         passwordTxt.tintColor = .primaryColor
         
@@ -37,7 +36,6 @@ class LoginVC: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         loginGradientButton()
-        
     }
     
     func loginGradientButton() -> Void {
