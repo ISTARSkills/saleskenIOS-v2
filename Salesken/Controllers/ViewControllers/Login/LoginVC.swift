@@ -22,6 +22,10 @@ class LoginVC: UIViewController {
     @IBOutlet weak var forgotPasswordBtn: UIButton!
     
     
+    override func viewDidAppear(_ animated: Bool) {
+        Socket.instance.connect()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboardWhenTappedAround()
@@ -31,7 +35,6 @@ class LoginVC: UIViewController {
         signinBtn.clipsToBounds = true
         nameTxt.tintColor = .primaryColor
         passwordTxt.tintColor = .primaryColor
-        
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()

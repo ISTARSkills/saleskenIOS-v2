@@ -16,7 +16,7 @@ func configureAudioSession() {
     try session.setCategory(.playAndRecord, mode: .voiceChat, options: [])
   } catch (let error) {
     print("Error while configuring audio session: \(error)")
-    //Socket.instance.disconnect()
+    Socket.instance.disconnect()
   }
    
 }

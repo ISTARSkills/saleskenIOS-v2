@@ -10,7 +10,7 @@ import Foundation
 import CallKit
 
 // CallKit available from ios 10.0
-// Call kit is used to integrate native phone call app for call
+// Call kit is used to interface native phone call app for call
 @available(iOS 10.0, *)
 class CallManager {
   var callsChangedHandler: (() -> Void)?

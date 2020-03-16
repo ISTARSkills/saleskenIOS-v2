@@ -70,6 +70,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		60A5EACA241FC15A003402FE /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1793A5CA23FBCD6400374727 /* Salesken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salesken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1793A5D123FBCD6400374727 /* UpComingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingVC.swift; sourceTree = "<group>"; };
@@ -517,6 +530,7 @@
 				1793A5C623FBCD6300374727 /* Sources */,
 				1793A5C723FBCD6300374727 /* Frameworks */,
 				1793A5C823FBCD6300374727 /* Resources */,
+				60A5EACA241FC15A003402FE /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
