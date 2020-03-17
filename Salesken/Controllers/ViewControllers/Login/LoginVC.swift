@@ -18,12 +18,12 @@ class LoginVC: UIViewController {
     @IBOutlet weak var nameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     
-    @IBOutlet weak var signinBtn: UIButton!
+    @IBOutlet weak var signinBtn: SaleskenButton!
     @IBOutlet weak var forgotPasswordBtn: UIButton!
     
     
     override func viewDidAppear(_ animated: Bool) {
-        Socket.instance.connect()
+        //Socket.instance.connect()
     }
     
     override func viewDidLoad() {
@@ -66,44 +66,11 @@ class LoginVC: UIViewController {
     @IBAction func onClickForgotPassword(_ sender: Any) {
         let newStoryBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         let VC = newStoryBoard.instantiateViewController(withIdentifier: "ForgotPasswordVC") as! ForgotPasswordVC
-        VC.delegate = self
+       // VC.delegate = self
         VC.modalPresentationStyle = .fullScreen
         self.present(VC, animated: true, completion: nil)
     }
-    
-    func showAlert(title: String, message: String){
-        let blurEffect : UIBlurEffect?
-        if #available(iOS 10.0, *) {
-            if #available(iOS 13.0, *) {
-                blurEffect = UIBlurEffect(style: .systemMaterialDark)
-            } else {
-                blurEffect = UIBlurEffect(style: .dark)
-            }
-        } else {
-             blurEffect = UIBlurEffect(style: .dark)
-        }
-        let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = view.bounds
-        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight] // for supporting device rotation
-        view.addSubview(blurEffectView)
-        
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: { (_) in
-            blurEffectView.removeFromSuperview()
-        })
-        action.setValue(UIColor.primaryColor, forKey: "titleTextColor")
-        alert.addAction(action)
-        //show(alert, sender: nil)
-        self.present(alert, animated: true)
-    }
+     
     
 }
-extension LoginVC: ForgotPasswordDelegate{
-    func onEmailSubmitted(email: String) {
-
-        let message = "Check your email \(email) to reset your password"
-        showAlert(title: "Email Sent",message: message)
-    }
-    
-    
-}
+ 
